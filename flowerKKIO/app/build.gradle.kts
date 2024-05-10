@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.bulko.flowerkkio"
-        minSdk = 24
+        minSdk = 23
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -45,4 +45,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    // 카카오 로그인 모듈
+    implementation("com.kakao.sdk:v2-user:2.20.1")
+
 }
