@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">flowerKKIO</string>
+    <string name="title_activity_navi">This is activity.</string>
+    <string name="Home">홈</string>
+    <string name="Subscribe">구독</string>
+    <string name="Profile">마이페이지</string>
+    <string name="Posting_title">5월에 피는 꽃으로 방 꾸미기 🙌</string>
+    <string name="more">더보기</string>
+
 </resources>
