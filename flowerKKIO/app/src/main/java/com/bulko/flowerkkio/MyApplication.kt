@@ -3,7 +3,7 @@ package com.bulko.flowerkkio
 import android.app.Application
 import com.kakao.sdk.common.KakaoSdk
 
-
+//카카오 api 를 위한 엑티비티 건들지 마셈
 class MyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
