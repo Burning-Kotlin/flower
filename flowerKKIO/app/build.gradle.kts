@@ -46,23 +46,12 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    // 카카오 로그인 모듈
-    implementation("com.kakao.sdk:v2-user:2.0.1")
-
-    // Import the Firebase BoM
-    implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
-
-    // When using the BoM, you don't specify versions in Firebase library dependencies
-
-    // Add the dependency for the Firebase SDK for Google Analytics
-    implementation("com.google.firebase:firebase-analytics-ktx")
-
-    // TODO: Add the dependencies for any other Firebase products you want to use
-    // See https://firebase.google.com/docs/android/setup#available-libraries
-    // For example, add the dependencies for Firebase Authentication and Cloud Firestore
-    implementation("com.google.firebase:firebase-auth-ktx")
-    implementation("com.google.firebase:firebase-firestore-ktx")
-
+    implementation ("com.kakao.sdk:v2-user:2.20.1") // 카카오 로그인
+    implementation (platform("com.google.firebase:firebase-bom:33.0.0"))
+    implementation ("com.google.firebase:firebase-database-ktx") // Realtime Database library
+    implementation ("com.google.firebase:firebase-core:21.1.1")
+    implementation ("com.firebaseui:firebase-ui-auth:7.2.0") // gradle_firebase_ui_auth
+    implementation ("com.google.android.gms:play-services-auth:21.1.1") // Google Play services library
 }
 
 
