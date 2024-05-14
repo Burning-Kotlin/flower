@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_menu_click_color.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/menu_click_color.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_search.png.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/search.png"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/layout_activity_post_view.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/activity_post_view.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/layout_fragment_home.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_bookmark_.png.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/bookmark_.png"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/layout_content_scrolling.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/content_scrolling.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_profile.png.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/profile.png"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bulko.flowerkkio.app-debug-58:/drawable_like.png.flat",
+        "source": "com.bulko.flowerkkio.app-main-60:/drawable/like.png"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_comment.png.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/comment.png"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/xml_backup_rules.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/layout_fragment_subscribe.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/fragment_subscribe.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/layout_community_top.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/community_top.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_subscribe.png.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/subscribe.png"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/menu_navi_menu.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/menu/navi_menu.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_logo.png.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/logo.png"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/layout-w1240dp_content_scrolling.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout-w1240dp/content_scrolling.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bulko.flowerkkio.app-debug-58:/layout_post_bottom_bar.xml.flat",
+        "source": "com.bulko.flowerkkio.app-main-60:/layout/post_bottom_bar.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/menu_menu_post_view.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/menu/menu_post_view.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/layout_activity_main.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/layout_fragment_profile.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/layout_navi_bar.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/navi_bar.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_home.png.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/home.png"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/layout_post_bottom_bar.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/post_bottom_bar.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/layout-w936dp_content_scrolling.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout-w936dp/content_scrolling.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_heart.png.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/heart.png"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/layout_activity_navi.xml.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/activity_navi.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_menubar.png.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/menubar.png"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-debug-58:/drawable_back_button.png.flat",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/drawable/back_button.png"
+    }
+]

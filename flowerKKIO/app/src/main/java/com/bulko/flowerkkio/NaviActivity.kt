@@ -10,8 +10,8 @@ import androidx.fragment.app.FragmentManager
 import com.bulko.flowerkkio.databinding.ActivityNaviBinding
 
 
-private const val TAG_CALENDER = "calender_fragment"
 private const val TAG_HOME = "home_fragment"
+private const val TAG_SUBSCRIBE = "subscribe_fragment"
 private const val TAG_MY_PAGE = "my_page_fragment"
 
 
@@ -31,8 +31,8 @@ class NaviActivity : AppCompatActivity() {
 
         binding.navigationView.setOnItemSelectedListener { item ->
             when(item.itemId) {
-                R.id.HomeFragment -> setFragment(TAG_CALENDER, HomeFragment())
-                R.id.SubscribeFragment -> setFragment(TAG_HOME, SubscribeFragment())
+                R.id.HomeFragment -> setFragment(TAG_HOME, HomeFragment())
+                R.id.SubscribeFragment -> setFragment(TAG_SUBSCRIBE, SubscribeFragment())
                 R.id.ProfileFragment-> setFragment(TAG_MY_PAGE, ProfileFragment())
             }
             true
@@ -48,30 +48,30 @@ class NaviActivity : AppCompatActivity() {
             fragTransaction.add(R.id.mainFrameLayout, fragment, tag)
         }
 
-        val calender = manager.findFragmentByTag(TAG_CALENDER)
         val home = manager.findFragmentByTag(TAG_HOME)
+        val subscribe = manager.findFragmentByTag(TAG_SUBSCRIBE)
         val myPage = manager.findFragmentByTag(TAG_MY_PAGE)
-
-        if (calender != null){
-            fragTransaction.hide(calender)
-        }
 
         if (home != null){
             fragTransaction.hide(home)
+        }
+
+        if (subscribe != null){
+            fragTransaction.hide(subscribe)
         }
 
         if (myPage != null) {
             fragTransaction.hide(myPage)
         }
 
-        if (tag == TAG_CALENDER) {
-            if (calender!=null){
-                fragTransaction.show(calender)
+        if (tag == TAG_HOME) {
+            if (home!=null){
+                fragTransaction.show(home)
             }
         }
-        else if (tag == TAG_HOME) {
-            if (home != null) {
-                fragTransaction.show(home)
+        else if (tag == TAG_SUBSCRIBE) {
+            if (subscribe != null) {
+                fragTransaction.show(subscribe)
             }
         }
 
