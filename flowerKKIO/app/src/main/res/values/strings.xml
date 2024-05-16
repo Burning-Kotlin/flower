@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">flowerKKIO</string>
+    <!-- 네이티브 앱 키 (예시) -->
+    <string name="kakao_app_key">d34e53f62af053c41fee16c3d359090c</string>
 </resources>

@@ -45,7 +45,7 @@ class LoginActivity : AppCompatActivity() {
 
                 // Firebase에 Kakao OAuth 토큰으로 로그인
                 val providerBuilder = OAuthProvider.newBuilder("oidc.flower")
-                val providerId = "oidc.whitebus_re" // As registered in Firebase console.
+                val providerId = "oidc.flower" // As registered in Firebase console.
 
                 val credential = oAuthCredential(providerId) {
                     setIdToken(token.idToken)// ID token from OpenID Connect flow.

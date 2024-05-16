@@ -13,3 +13,4 @@ class MyApplication : Application() {
         KakaoSdk.init(this, "d34e53f62af053c41fee16c3d359090c")
     }
 }
+

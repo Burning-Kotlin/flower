@@ -29,7 +29,7 @@
         android:layout_gravity="center"
         android:background="#00ff0000"
         android:src="@drawable/kakao_login"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/kakao_login"/>
 
 </LinearLayout>
