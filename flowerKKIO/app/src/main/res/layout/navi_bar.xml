@@ -2,7 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
 
     <FrameLayout
         android:id="@+id/main_view"
@@ -14,8 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="10dp"
-        />
+        app:layout_goneMarginTop="10dp" />
 
     <ImageButton
         android:id="@+id/homeBtn"
@@ -25,12 +25,11 @@
         android:layout_marginLeft="13dp"
         android:layout_marginBottom="5dp"
         android:background="#00ff0000"
-        android:src="@drawable/home"
+        android:src="@drawable/homebtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/subscribeBtn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/main_view"
-        />
+        app:layout_constraintTop_toBottomOf="@id/main_view" />
 
     <ImageButton
         android:id="@+id/subscribeBtn"
@@ -41,12 +40,11 @@
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
         android:background="#00ff0000"
-        android:src="@drawable/subscribe"
+        android:src="@drawable/subrecbtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/profileBtn"
         app:layout_constraintStart_toEndOf="@id/homeBtn"
-        app:layout_constraintTop_toBottomOf="@id/main_view"
-        />
+        app:layout_constraintTop_toBottomOf="@id/main_view" />
 
     <ImageButton
         android:id="@+id/profileBtn"
@@ -55,11 +53,10 @@
         android:layout_gravity="bottom"
         android:layout_marginBottom="5dp"
         android:background="#00ff0000"
-        android:src="@drawable/profile"
+        android:src="@drawable/mypagebtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/subscribeBtn"
-        app:layout_constraintTop_toBottomOf="@id/main_view"
-        />
+        app:layout_constraintTop_toBottomOf="@id/main_view" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

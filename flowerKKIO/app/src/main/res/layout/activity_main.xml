@@ -5,141 +5,62 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <include
-        android:id="@+id/community_top"
-        layout="@layout/community_top" />
-
-    <TextView
-        android:id="@+id/interest_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="꽃 커뮤니티 💐"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <FrameLayout
+        android:id="@+id/main_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toTopOf="@id/homeBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.101"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.110" />
+        app:layout_goneMarginTop="10dp" />
 
     <ImageButton
-        android:id="@+id/interest1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/homeBtn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="5dp"
+        android:background="#00ff0000"
+        android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintEnd_toStartOf="@id/subscribeBtn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.231"
-        tools:srcCompat="@tools:sample/avatars"
-        android:contentDescription="Interest 1 Button"/>
+        app:layout_constraintTop_toBottomOf="@id/main_view"/>
 
     <ImageButton
-        android:id="@+id/interest2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/subscribeBtn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#00ff0000"
+        android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.868"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.231"
-        tools:srcCompat="@tools:sample/avatars"
-        android:contentDescription="Interest 2 Button"/>
+        app:layout_constraintEnd_toStartOf="@id/profileBtn"
+        app:layout_constraintStart_toEndOf="@id/homeBtn"
+        app:layout_constraintTop_toBottomOf="@id/main_view"/>
 
     <ImageButton
-        android:id="@+id/interest3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/profileBtn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="5dp"
+        android:background="#00ff0000"
+        android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.119"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592"
-        tools:srcCompat="@tools:sample/avatars"
-        android:contentDescription="Interest 3 Button"/>
-
-    <ImageButton
-        android:id="@+id/interest4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.868"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592"
-        tools:srcCompat="@tools:sample/avatars"
-        android:contentDescription="Interest 4 Button"/>
-
-    <TextView
-        android:id="@+id/interestText_1"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:text="@string/Posting_title"
-        android:textSize="14dp"
-        android:maxLines="2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.417"
-        />
-
-    <TextView
-        android:id="@+id/interestText_2"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:maxLines="2"
-        android:text="@string/Posting_title"
-        android:textSize="14dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.839"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.417" />
-
-    <TextView
-        android:id="@+id/interestText_3"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:maxLines="2"
-        android:text="@string/Posting_title"
-        android:textSize="14dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.156"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714" />
-
-    <TextView
-        android:id="@+id/interestText_4"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:maxLines="2"
-        android:text="@string/Posting_title"
-        android:textSize="14dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.839"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714" />
-
-    <include
-        android:id="@+id/navi_bar"
-        layout="@layout/navi_bar" />
-
+        app:layout_constraintStart_toEndOf="@id/subscribeBtn"
+        app:layout_constraintTop_toBottomOf="@id/main_view"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-

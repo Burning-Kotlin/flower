@@ -4,15 +4,16 @@
     <item
         android:id="@+id/HomeFragment"
         android:title="홈"
-        android:icon="@drawable/home"/>
+        android:icon="@drawable/homebtn"/>
 
     <item
-        android:id="@+id/SubscribeFragment"
-        android:title="구독"
-        android:icon="@drawable/subscribe"/>
+        android:id="@+id/SubRecFragment"
+        android:title="구독 추천"
+        android:icon="@drawable/subrecbtn"/>
 
     <item
         android:id="@+id/ProfileFragment"
         android:title="마이페이지"
-        android:icon="@drawable/profile"/>
+        android:icon="@drawable/mypagebtn"/>
+
 </menu>
