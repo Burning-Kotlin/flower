@@ -5,8 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
-import com.bulko.flowerkkio.R
-import com.bulko.flowerkkio.SecondActivity
+import com.bulko.flowerkkio.community.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.OAuthProvider
 import com.google.firebase.auth.ktx.auth
@@ -26,7 +25,7 @@ private var nickname: String? = null
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.login_main)
 
         // Firebase 초기화
         Firebase.initialize(this)
@@ -58,7 +57,7 @@ class LoginActivity : AppCompatActivity() {
                         val user = authResult.user
                         Log.d(TAG, "Firebase sign in succeeded: $user")
                         // SelectUserActivity로 이동
-                        val intent = Intent(this@LoginActivity, SecondActivity::class.java)
+                        val intent = Intent(this@LoginActivity, MainActivity::class.java)
                         startActivity(intent)
                         finish() // LoginActivity는 종료
                     }

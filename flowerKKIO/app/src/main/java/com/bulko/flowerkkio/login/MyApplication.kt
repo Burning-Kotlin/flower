@@ -1,4 +1,4 @@
-package com.bulko.flowerkkio
+package com.bulko.flowerkkio.login
 
 import android.app.Application
 import com.kakao.sdk.common.KakaoSdk

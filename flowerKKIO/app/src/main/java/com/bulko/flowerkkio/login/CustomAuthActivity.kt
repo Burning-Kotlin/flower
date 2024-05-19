@@ -1,4 +1,4 @@
-package com.bulko.flowerkkio
+package com.bulko.flowerkkio.login
 
 import android.app.Activity
 import android.os.Bundle

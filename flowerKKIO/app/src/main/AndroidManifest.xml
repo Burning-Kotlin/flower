@@ -8,7 +8,7 @@
 
     <application
 
-        android:name=".MyApplication"
+        android:name=".login.MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -43,7 +43,25 @@
                     android:scheme="kakaod34e53f62af053c41fee16c3d359090c" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
+        <activity
+            android:name=".community.PostViewActivity"
+            android:exported="false"
+            android:label="@string/title_activity_post_view"
+            android:theme="@style/Theme.FlowerKKIO.NoActionBar" />
+        <activity
+            android:name=".community.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navi"
+            android:theme="@style/Theme.FlowerKKIO" />
+        <activity
+            android:name=".community.NaviActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
