@@ -19,13 +19,11 @@ class NaviActivity : AppCompatActivity() {
 
     private lateinit var binding : ActivityNaviBinding
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = ActivityNaviBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
 
         setFragment(TAG_HOME, HomeFragment())
 

@@ -13,10 +13,8 @@
         android:theme="@style/Theme.FlowerKKIO"
         tools:targetApi="31">
         <activity
-            android:name=".PostViewActivity"
-            android:exported="false"
-            android:label="@string/title_activity_post_view"
-            android:theme="@style/Theme.FlowerKKIO.NoActionBar" />
+            android:name=".PostBottomActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false"

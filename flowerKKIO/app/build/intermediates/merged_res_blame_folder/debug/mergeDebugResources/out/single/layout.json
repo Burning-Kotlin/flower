@@ -8,6 +8,30 @@
         "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/activity_post_view.xml"
     },
     {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/fragment_subscribe.xml",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/fragment_subscribe.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/activity_main.xml",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/content_scrolling.xml",
+        "source": "com.bulko.flowerkkio.app-main-60:/layout/content_scrolling.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/fragment_profile.xml",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/post_bottom_bar.xml",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/post_bottom_bar.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/content_scrolling.xml",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/content_scrolling.xml"
+    },
+    {
         "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/navi_bar.xml",
         "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/navi_bar.xml"
     },
@@ -16,31 +40,11 @@
         "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/fragment_home.xml"
     },
     {
-        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/fragment_subscribe.xml",
-        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/fragment_subscribe.xml"
-    },
-    {
-        "merged": "com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/post_bottom_bar.xml",
-        "source": "com.bulko.flowerkkio.app-main-60:/layout/post_bottom_bar.xml"
-    },
-    {
-        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/activity_main.xml",
-        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/post_bottom_bar.xml",
-        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/post_bottom_bar.xml"
-    },
-    {
-        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/fragment_profile.xml",
-        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/fragment_profile.xml"
+        "merged": "com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/activity_post_bottom.xml",
+        "source": "com.bulko.flowerkkio.app-main-60:/layout/activity_post_bottom.xml"
     },
     {
         "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/community_top.xml",
         "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/community_top.xml"
-    },
-    {
-        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout/content_scrolling.xml",
-        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout/content_scrolling.xml"
     }
 ]

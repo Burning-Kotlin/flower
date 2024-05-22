@@ -2,5 +2,9 @@
     {
         "merged": "com.bulko.flowerkkio.app-mergeDebugResources-57:/layout-w936dp-v13/content_scrolling.xml",
         "source": "com.bulko.flowerkkio.app-main-60:/layout-w936dp/content_scrolling.xml"
+    },
+    {
+        "merged": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-mergeDebugResources-57:/layout-w936dp-v13/content_scrolling.xml",
+        "source": "/Users/ichaeyeon/.gradle/daemon/8.4/com.bulko.flowerkkio.app-main-60:/layout-w936dp/content_scrolling.xml"
     }
 ]

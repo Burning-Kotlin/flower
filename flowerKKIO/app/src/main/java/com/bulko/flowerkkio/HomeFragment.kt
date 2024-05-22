@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import android.content.Context
 import android.content.Intent
 import android.widget.ImageView
 
@@ -51,7 +50,7 @@ class HomeFragment : Fragment() {
 
         // 여기서 관련된 버튼 및 뷰들의 클릭 이벤트 등을 설정할 수 있습니다.
         interest1.setOnClickListener {
-            val intent = Intent(requireContext(), PostViewActivity::class.java)
+            val intent = Intent(requireContext(), PostBottomActivity::class.java)
 
             // 만약 추가적인 데이터를 전달해야 한다면 아래와 같이 데이터를 Intent에 추가할 수 있습니다
             // intent.putExtra("key", value)
@@ -62,7 +61,7 @@ class HomeFragment : Fragment() {
 
         interest2.setOnClickListener {
             // PostViewActivity로 이동하는 Intent 생성
-            val intent = Intent(requireContext(), PostViewActivity::class.java)
+            val intent = Intent(requireContext(), PostBottomActivity::class.java)
 
             // 만약 추가적인 데이터를 전달해야 한다면 아래와 같이 데이터를 Intent에 추가할 수 있습니다
             // intent.putExtra("key", value)
@@ -72,7 +71,7 @@ class HomeFragment : Fragment() {
         }
 
         interest3.setOnClickListener {
-            val intent = Intent(requireContext(), PostViewActivity::class.java)
+            val intent = Intent(requireContext(), PostBottomActivity::class.java)
 
             // 만약 추가적인 데이터를 전달해야 한다면 아래와 같이 데이터를 Intent에 추가할 수 있습니다
             // intent.putExtra("key", value)
@@ -85,10 +84,7 @@ class HomeFragment : Fragment() {
             // Interest 4 클릭 처리
         }
 
-        // ImageView에 OnClickListener 설정
-        // ImageView에 OnClickListener 설정
         back_button.setOnClickListener {
-
             val msg = "Move back"
             Toast.makeText(requireContext(), msg, Toast.LENGTH_SHORT).show()
             // 현재 Fragment를 제거하여 이전 Fragment로 이동

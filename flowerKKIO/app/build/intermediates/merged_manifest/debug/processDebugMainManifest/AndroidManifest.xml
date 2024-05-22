@@ -28,10 +28,8 @@
         android:testOnly="true"
         android:theme="@style/Theme.FlowerKKIO" >
         <activity
-            android:name="com.bulko.flowerkkio.PostViewActivity"
-            android:exported="false"
-            android:label="@string/title_activity_post_view"
-            android:theme="@style/Theme.FlowerKKIO.NoActionBar" />
+            android:name="com.bulko.flowerkkio.PostBottomActivity"
+            android:exported="false" />
         <activity
             android:name="com.bulko.flowerkkio.MainActivity"
             android:exported="false"
