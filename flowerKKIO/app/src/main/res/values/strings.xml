@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">flowerKKIO</string>
-    <!-- 네이티브 앱 키 (예시) -->
-    <string name="kakao_app_key">d34e53f62af053c41fee16c3d359090c</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navi">This is activity.</string>
+    <string name="Home">홈</string>
+    <string name="Subscribe">구독</string>
+    <string name="Profile">마이페이지</string>
+    <string name="Posting_title">5월에 피는 꽃으로 방 꾸미기 🙌</string>
+    <string name="more">더보기</string>
+    <string name="title_activity_post_view">PostViewActivity</string>
+    <string name="large_text">
+        불라불라
+    </string>
+    <string name="action_settings">Settings</string>
 </resources>

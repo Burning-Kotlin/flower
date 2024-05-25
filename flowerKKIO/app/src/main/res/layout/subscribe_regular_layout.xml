@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/top_of_sub_rec2">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backBtn_subregular"
+            android:layout_gravity="left"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/backbtn"
+            android:background="#00ff0000"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/menubar_subregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/menubar"
+            android:background="#00ff0000" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/flower_regular"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="10sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Regular Collection"
+                android:layout_marginBottom="5sp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="22,900원"
+                android:layout_marginBottom="20sp"
+                android:textSize="20sp"
+                android:layout_marginStart="10sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 꽃 선택하기 (최대 4개)"
+                android:layout_marginBottom="10sp"
+                android:textSize="20sp"
+                android:layout_marginStart="10sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/checkboxLinear2"
+                android:layout_marginBottom="20sp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:id="@+id/cb_flower1_regular"
+                    android:text="꽃 1" />
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:id="@+id/cb_flower2_regular"
+                    android:text="꽃 2" />
+                <!--                <CheckBox-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginStart="10sp"-->
+                <!--                    android:id="@+id/check_flower2"-->
+                <!--                    android:button="@null"-->
+                <!--                    android:background="@drawable/custom_checkbox" />-->
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:id="@+id/cb_flower3_regular"
+                    android:text="꽃 3" />
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:id="@+id/cb_flower4_regular"
+                    android:text="꽃 4" />
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:id="@+id/cb_flower5_regular"
+                    android:text="꽃 5" />
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:id="@+id/cb_flower6_regular"
+                    android:text="꽃 6" />
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:id="@+id/cb_flower7_regular"
+                    android:text="꽃 7" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. 첫 수령 희망일"
+                android:layout_marginBottom="10sp"
+                android:textSize="20sp"
+                android:layout_marginStart="10sp"/>
+            <DatePicker
+                android:id="@+id/datePicker_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. 구독 주기"
+                android:layout_marginBottom="10sp"
+                android:textSize="20sp"
+                android:layout_marginStart="10sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20sp">
+                <RadioGroup
+                    android:id="@+id/radio_group_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                    <RadioButton
+                        android:id="@+id/radio_once_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10sp"
+                        android:text="월 1회 정기구독" />
+                    <RadioButton
+                        android:id="@+id/radio_twice_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10sp"
+                        android:text="월 2회 정기구독"  />
+                    <RadioButton
+                        android:id="@+id/radio_fourtimes_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10sp"
+                        android:text="월 4회 정기구독" />
+                </RadioGroup>
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subscribe_regular"
+                android:text="구독하기"
+                android:layout_marginStart="10sp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
