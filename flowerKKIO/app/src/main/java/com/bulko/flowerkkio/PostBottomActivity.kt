@@ -1,6 +1,7 @@
 package com.bulko.flowerkkio
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -28,6 +29,61 @@ class PostBottomActivity : AppCompatActivity() {
 
         back_button = findViewById(R.id.back_button)
 
+
+
+        val postId = intent.getLongExtra("POST_ID", -1)
+
+        if (postId == -1L) {
+            Toast.makeText(this, "Invalid Post ID", Toast.LENGTH_SHORT).show()
+            finish()
+            return
+        }
+
+        Log.d("PostBottomActivity", postId.toString())
+
+
+        if (postId == 1L) {
+            Log.d("PostBottomActivity", "1")
+
+            val selectedFragment = PostViewOneFragment().apply {
+                arguments = Bundle().apply {
+                    putLong("POST_ID", postId)
+                }
+            }
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.host_fragment, selectedFragment)
+                .commit()
+        }
+
+        if (postId == 2L) {
+            Log.d("PostBottomActivity", "2")
+
+            val selectedFragment = PostViewTwoFragment().apply {
+                arguments = Bundle().apply {
+                    putLong("POST_ID", postId)
+                }
+            }
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.host_fragment, selectedFragment)
+                .commit()
+        }
+
+        if (postId == 3L) {
+            Log.d("PostBottomActivity", postId.toString())
+
+            val selectedFragment = PostViewTwoFragment().apply {
+                arguments = Bundle().apply {
+                    putLong("POST_ID", postId)
+                }
+            }
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.host_fragment, selectedFragment)
+                .commit()
+        }
+
+
+
+
         // 초기 상태 설정
         updateLikeButton()
         updateBookmarkButton()
@@ -47,7 +103,18 @@ class PostBottomActivity : AppCompatActivity() {
         }
 
         plant_info.setOnClickListener {
-            // 식물 정보 버튼이 클릭되었을 때 할 작업을 여기에 추가
+            if(postId == 1L) {
+                Log.d("PostBottom.plant_info", postId.toString())
+
+                val selectedFragment = MoreFlantFragment().apply {
+                    arguments = Bundle().apply {
+                        putLong("POST_ID", postId)
+                    }
+                }
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.host_fragment, selectedFragment)
+                    .commit()
+            }
         }
 
         back_button.setOnClickListener {

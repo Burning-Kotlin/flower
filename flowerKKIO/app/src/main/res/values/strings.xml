@@ -16,5 +16,43 @@
     <string name="large_text">
         불라불라
     </string>
+    <string name="user_name">나는 꽃끼오</string>
     <string name="action_settings">Settings</string>
+    <string name="flower_1_title">
+        봄에 피는 꽃으로 빈티지 느낌 자취방 꾸미기 🌈
+    </string>
+    <string name="flower_1_context">
+        안녕하세요!\n
+        봄에 피는 꽃으로 저의 7평 자취방을 빈티지 느낌으로 꾸며봤어요:)\n\n
+
+        자취 로망 중 하나가 꽃과 식물들로 아기자기한 느낌의 룸 데코를 해보는것이였어요.\n\n
+
+        제가 원하는 느낌의 식물들과 제 방을 소개해드릴게요!
+    </string>
+    <string name="flower_2_title">
+        5월에 피는 꽃으로 방 꾸미기 🙌
+    </string>
+    <string name="flower_2_context">
+        안녕하세요!\n
+        5월 달에 피는 꽃으로 방을 꾸며보았습니다 :)b\n\n
+
+        따듯한 봄 컬러에 맞게 밝은 분위기의 식물들을 방에 두었어요.\n\n
+
+        봄을 맞아 평소보다 많은 식물을 두어 봄이 찾아온 느낌을 듬뿍 담았답니다!
+    </string>
+    <string name="flower_3_title">
+        자취방에 딱! 다육이 식물들 🪴
+    </string>
+    <string name="flower_4_title">
+        드라이플라워로 빈티지 느낌 🎀
+    </string>
+    <string name="flower_5_title">
+       이번달 잘 산 꽃 소개 🌷
+    </string>
+    <string name="more_plant">
+        스킨답서스은 습윤한 환경을 필요로 합니다. 봄, 여름, 가을에는 화분 토양을 촉촉하게 유지합니다.
+        여름에는 스킨답서스에게 매일 물을 주세요. 기온이 가장 높은 정오에는 물을 주지 않고 아침 또는 저녁에 줍니다.
+        봄과 가을에는 4-5일 마다 물을 줍니다.
+        흙을 항상 촉촉하게 유지하되 토양이 너무 건조하거나 축축하지 않도록 해줍니다.
+    </string>
 </resources>

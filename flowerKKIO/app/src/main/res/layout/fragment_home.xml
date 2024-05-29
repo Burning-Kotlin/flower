@@ -31,6 +31,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.085" />
 
+    <Button
+        android:id="@+id/newPostBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="POST"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/realPink"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"/>
+
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -51,12 +67,28 @@
                 <ImageView
                     android:id="@+id/interest1"
                     android:layout_width="150dp"
-                    android:layout_height="100dp"
+                    android:layout_height="150dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/logo"
+                    android:src="@drawable/image_1"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/top_interestText_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New"
+                    android:textStyle="bold"
+                    android:textColor="@color/realPink"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/interestText_1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="20dp"
+                    app:layout_constraintStart_toEndOf="@+id/interest1"
+                    app:layout_constraintTop_toTopOf="@+id/interest1"
+                    >
+                </TextView>
 
                 <TextView
                     android:id="@+id/interestText_1"
@@ -64,7 +96,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:maxLines="2"
-                    android:text="@string/Posting_title"
+                    android:text="@string/flower_1_title"
                     android:textSize="14sp"
                     app:layout_constraintBottom_toBottomOf="@+id/interest1"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -82,9 +114,9 @@
                 <ImageView
                     android:id="@+id/interest2"
                     android:layout_width="150dp"
-                    android:layout_height="100dp"
+                    android:layout_height="150dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/logo"
+                    android:src="@drawable/image_2"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -95,7 +127,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:maxLines="2"
-                    android:text="@string/Posting_title"
+                    android:text="@string/flower_2_title"
                     android:textSize="14sp"
                     app:layout_constraintBottom_toBottomOf="@+id/interest2"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -113,9 +145,9 @@
                 <ImageView
                     android:id="@+id/interest3"
                     android:layout_width="150dp"
-                    android:layout_height="100dp"
+                    android:layout_height="150dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/logo"
+                    android:src="@drawable/image_3"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -126,7 +158,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:maxLines="2"
-                    android:text="@string/Posting_title"
+                    android:text="@string/flower_3_title"
                     android:textSize="14sp"
                     app:layout_constraintBottom_toBottomOf="@+id/interest3"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -144,9 +176,9 @@
                 <ImageView
                     android:id="@+id/interest4"
                     android:layout_width="150dp"
-                    android:layout_height="100dp"
+                    android:layout_height="150dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/logo"
+                    android:src="@drawable/image_4"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -157,7 +189,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:maxLines="2"
-                    android:text="@string/Posting_title"
+                    android:text="@string/flower_4_title"
                     android:textSize="14sp"
                     app:layout_constraintBottom_toBottomOf="@+id/interest4"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -175,9 +207,9 @@
                 <ImageView
                     android:id="@+id/interest5"
                     android:layout_width="150dp"
-                    android:layout_height="100dp"
+                    android:layout_height="150dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/logo"
+                    android:src="@drawable/flower_1"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -188,7 +220,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:maxLines="2"
-                    android:text="@string/Posting_title"
+                    android:text="@string/flower_5_title"
                     android:textSize="14sp"
                     app:layout_constraintBottom_toBottomOf="@+id/interest5"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -206,9 +238,9 @@
                 <ImageView
                     android:id="@+id/interest6"
                     android:layout_width="150dp"
-                    android:layout_height="100dp"
+                    android:layout_height="150dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/logo"
+                    android:src="@drawable/flower_2"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />

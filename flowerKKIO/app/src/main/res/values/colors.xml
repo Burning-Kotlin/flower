@@ -3,4 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="Gold">#FFFFD700</color>
+    <color name="Pink">#FFF0D9D9</color>
+    <color name="realPink">#FFFFBDBD</color>
+    <color name="darkPink">#FFE75480</color>
 </resources>
