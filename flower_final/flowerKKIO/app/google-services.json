@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "476726893788",
+    "project_id": "bulko-6a5dc",
+    "storage_bucket": "bulko-6a5dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476726893788:android:32b7e3cd3c572e8b3ae819",
+        "android_client_info": {
+          "package_name": "com.bulko.flowerkkio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmULushFe-FVduSL1Lk4_Dzl7ySsSSUuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
