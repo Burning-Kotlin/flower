@@ -24,13 +24,5 @@ Flowerkkio는 꽃 구독 서비스를 지역 꽃집과 연계함으로써 커뮤
 
 Flowerkkio는 기술과 자연을 결합하여 모든 꽃 애호가들에게 매끄럽고 즐거운 경험을 제공하는 것을 목표로 합니다. 이 애플리케이션은 사용자들이 꽃을 통해 일상의 아름다움을 발견하고, 서로의 경험을 공유하며, 더 풍요로운 삶을 즐길 수 있도록 돕습니다. Flowerkkio는 단순한 꽃 추천 애플리케이션을 넘어, 꽃을 사랑하는 모든 사람들을 위한 종합 플랫폼으로 자리매김하고자 합니다.
 
-<div align="center" data-full-width="true">
-
-<figure><img src=".gitbook/assets/image.png" alt="" width="192"><figcaption><p>login</p></figcaption></figure>
-
-</div>
-
 <figure><img src=".gitbook/assets/image (1).png" alt="" width="192"><figcaption><p>posting</p></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (3).png" alt="" width="192"><figcaption><p>recommendation, subscribe</p></figcaption></figure>
 
