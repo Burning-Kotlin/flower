@@ -6,6 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <FrameLayout
+        android:id="@+id/host_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/post_bottom_bar" />
+
+
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/post_bottom_bar"
         android:layout_width="0dp"

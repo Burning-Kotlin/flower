@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -7,63 +9,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/myScrap1"
-            android:background="?attr/selectableItemBackground"
-            android:src="@drawable/rectangle"
-            android:layout_weight="1" />
-        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/rectangle"
             android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/image_1"
+            app:srcCompat="@drawable/image_3" />
+
+        <ImageView
             android:id="@+id/myScrap2"
-            android:background="?attr/selectableItemBackground" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="10sp">
-        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/rectangle"
             android:layout_weight="1"
-            android:id="@+id/myScrap3"
-            android:background="?attr/selectableItemBackground"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/rectangle"
-            android:layout_weight="1"
-            android:id="@+id/myScrap4"
-            android:background="?attr/selectableItemBackground"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="10sp">
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/rectangle"
-            android:layout_gravity=""
-            android:id="@+id/myScrap5"
             android:background="?attr/selectableItemBackground"
-            android:layout_weight="1" />
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text=" "
-            android:layout_weight="1"/>
+            android:src="@drawable/image_2"
+            app:srcCompat="@drawable/image_4" />
     </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="스크랩 글 프래그먼트임!"
-        android:textSize="30dp" />
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:src="@drawable/login_page"-->
+    <!--        android:layout_gravity="center" />-->
 </LinearLayout>

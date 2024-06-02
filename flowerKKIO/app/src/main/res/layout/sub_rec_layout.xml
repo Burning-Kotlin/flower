@@ -49,6 +49,7 @@
                 android:orientation="vertical"
                 android:layout_marginBottom="20dp">
                 <TextView
+                    android:id="@+id/weatherTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="OO님! 이런 꽃은 어때요? ✨"

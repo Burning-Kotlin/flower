@@ -14,9 +14,6 @@ class ScrapFragment : Fragment() {
     lateinit var mainActivity: MainActivity
     lateinit var myScrap1: ImageView
     lateinit var myScrap2: ImageView
-    lateinit var myScrap3: ImageView
-    lateinit var myScrap4: ImageView
-    lateinit var myScrap5: ImageView
 
 
     override fun onAttach(context: Context) {
@@ -30,9 +27,6 @@ class ScrapFragment : Fragment() {
         val v = inflater.inflate(R.layout.scrap_layout, container, false)
         myScrap1 = v.findViewById(R.id.myScrap1)
         myScrap2 = v.findViewById(R.id.myScrap2)
-        myScrap3 = v.findViewById(R.id.myScrap3)
-        myScrap4 = v.findViewById(R.id.myScrap4)
-        myScrap5 = v.findViewById(R.id.myScrap5)
 
         myScrap1.setOnClickListener {
             Toast.makeText(mainActivity, "스크랩 1 선택", Toast.LENGTH_SHORT).show()
@@ -40,15 +34,7 @@ class ScrapFragment : Fragment() {
         myScrap2.setOnClickListener {
             Toast.makeText(mainActivity, "스크랩 2 선택", Toast.LENGTH_SHORT).show()
         }
-        myScrap3.setOnClickListener {
-            Toast.makeText(mainActivity, "스크랩 3 선택", Toast.LENGTH_SHORT).show()
-        }
-        myScrap4.setOnClickListener {
-            Toast.makeText(mainActivity, "스크랩 4 선택", Toast.LENGTH_SHORT).show()
-        }
-        myScrap5.setOnClickListener {
-            Toast.makeText(mainActivity, "스크랩 5 선택", Toast.LENGTH_SHORT).show()
-        }
+
         return v
     }
     override fun onActivityCreated(savedInstanceState: Bundle?) {

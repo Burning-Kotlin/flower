@@ -32,6 +32,7 @@ package com.bulko.flowerkkio
 //    }
 //}
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -59,6 +60,10 @@ class PostFragment : Fragment() {
         myPost2 = v.findViewById(R.id.myPost2)
         myPost1.setOnClickListener {
             Toast.makeText(mainActivity, "게시글 1 선택", Toast.LENGTH_SHORT).show()
+            val intent = Intent(requireContext(), PostBottomActivity::class.java).apply {
+                putExtra("POST_ID", 1L)
+            }
+            startActivity(intent)
         }
         myPost2.setOnClickListener {
             Toast.makeText(mainActivity, "게시글 2 선택", Toast.LENGTH_SHORT).show()

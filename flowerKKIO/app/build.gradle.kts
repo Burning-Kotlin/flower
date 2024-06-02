@@ -55,6 +55,6 @@ dependencies {
     implementation("com.google.firebase:firebase-core:21.1.1")
     implementation("com.firebaseui:firebase-ui-auth:7.2.0") // gradle_firebase_ui_auth
     implementation("com.google.android.gms:play-services-auth:21.1.1") // Google Play services library
-
+    implementation("com.google.code.gson:gson:2.8.6")
 
 }

@@ -9,6 +9,7 @@ import android.widget.ImageButton
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import android.content.Intent
+import android.widget.Button
 import android.widget.ImageView
 
 
@@ -20,11 +21,12 @@ class HomeFragment : Fragment() {
     private lateinit var interest4: ImageView
 
     private lateinit var back_button: ImageView
+    private lateinit var new_post_btn: Button
+
 
     private lateinit var homeBtn: ImageButton
     private lateinit var subscribeBtn: ImageButton
     private lateinit var profileBtn: ImageButton
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -43,42 +45,23 @@ class HomeFragment : Fragment() {
         interest4 = view.findViewById(R.id.interest4)
 
         back_button = view.findViewById(R.id.back_button)
-
+        new_post_btn = view.findViewById(R.id.newPostBtn)
 
         // 여기서 관련된 버튼 및 뷰들의 클릭 이벤트 등을 설정할 수 있습니다.
         interest1.setOnClickListener {
-            val intent = Intent(requireContext(), PostBottomActivity::class.java)
-
-            // 만약 추가적인 데이터를 전달해야 한다면 아래와 같이 데이터를 Intent에 추가할 수 있습니다
-            // intent.putExtra("key", value)
-
-            // PostViewActivity 시작
-            startActivity(intent)
+            openPostBottomActivity(1L)
         }
 
         interest2.setOnClickListener {
-            // PostViewActivity로 이동하는 Intent 생성
-            val intent = Intent(requireContext(), PostBottomActivity::class.java)
-
-            // 만약 추가적인 데이터를 전달해야 한다면 아래와 같이 데이터를 Intent에 추가할 수 있습니다
-            // intent.putExtra("key", value)
-
-            // PostViewActivity 시작
-            startActivity(intent)
+            openPostBottomActivity(2L)
         }
 
         interest3.setOnClickListener {
-            val intent = Intent(requireContext(), PostBottomActivity::class.java)
-
-            // 만약 추가적인 데이터를 전달해야 한다면 아래와 같이 데이터를 Intent에 추가할 수 있습니다
-            // intent.putExtra("key", value)
-
-            // PostViewActivity 시작
-            startActivity(intent)
+            openPostBottomActivity(3L)
         }
 
         interest4.setOnClickListener {
-            // Interest 4 클릭 처리
+            openPostBottomActivity(4L)
         }
 
         back_button.setOnClickListener {
@@ -86,6 +69,16 @@ class HomeFragment : Fragment() {
             Toast.makeText(requireContext(), msg, Toast.LENGTH_SHORT).show()
             // 현재 Fragment를 제거하여 이전 Fragment로 이동
             requireActivity().supportFragmentManager.popBackStack()
+        }
+
+        new_post_btn.setOnClickListener{
+            val intent = Intent(requireContext(), CreatePostActivity::class.java)
+
+            // 만약 추가적인 데이터를 전달해야 한다면 아래와 같이 데이터를 Intent에 추가할 수 있습니다
+            // intent.putExtra("key", value)
+
+            // PostViewActivity 시작
+            startActivity(intent)
         }
 
 
@@ -96,5 +89,15 @@ class HomeFragment : Fragment() {
             .replace(R.id.main_view, fragment)
             .commit()
     }
+
+    private fun openPostBottomActivity(postId: Long) {
+        val intent = Intent(requireContext(), PostBottomActivity::class.java).apply {
+            putExtra("POST_ID", postId)
+        }
+        startActivity(intent)
+
+    }
+
+
 
 }

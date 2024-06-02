@@ -80,13 +80,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10sp"
                     android:id="@+id/cb_flower1_small"
-                    android:text="꽃 1" />
+                    android:text="라일락" />
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10sp"
                     android:id="@+id/cb_flower2_small"
-                    android:text="꽃 2" />
+                    android:text="빨간 장미" />
 <!--                <CheckBox-->
 <!--                    android:layout_width="wrap_content"-->
 <!--                    android:layout_height="wrap_content"-->
@@ -99,31 +99,31 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10sp"
                     android:id="@+id/cb_flower3_small"
-                    android:text="꽃 3" />
+                    android:text="안개꽃" />
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10sp"
                     android:id="@+id/cb_flower4_small"
-                    android:text="꽃 4" />
+                    android:text="작약" />
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10sp"
                     android:id="@+id/cb_flower5_small"
-                    android:text="꽃 5" />
+                    android:text="코스모스" />
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10sp"
                     android:id="@+id/cb_flower6_small"
-                    android:text="꽃 6" />
+                    android:text="카네이션" />
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10sp"
                     android:id="@+id/cb_flower7_small"
-                    android:text="꽃 7" />
+                    android:text="파란 장미" />
             </LinearLayout>
             <TextView
                 android:layout_width="match_parent"
